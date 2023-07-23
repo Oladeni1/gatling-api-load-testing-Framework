@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.RecordedSimulationComputerDB",
+  "simulationId": "recordedsimulationcomputerdb",
+  "start": 1689950726711,
+  "description": "Perf Test Computer DB",
+  "scenarios": ["RecordedSimulationComputerDB"],
+  "assertions": [
+
+  ]
+}

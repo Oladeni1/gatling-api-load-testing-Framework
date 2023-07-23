@@ -1,0 +1,76 @@
+RUN	com.gatling.apitests.PostPutDeleteAPITest002	postputdeleteapitest002	1689966194049	Oladeni	3.6.1
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966195194
+USER	Create (POST) Api Request Demo	START	1689966195187
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966195377
+USER	Create (POST) Api Request Demo	START	1689966195376
+USER	Update (PUT) Api Request Demo	START	1689966195189
+REQUEST		Update User	1689966195212	1689966195514	KO	status.find.is(200), but actually found 404
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966195581
+USER	Create (POST) Api Request Demo	START	1689966195581
+USER	Update (PUT) Api Request Demo	START	1689966195677
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966195789
+USER	Create (POST) Api Request Demo	START	1689966195789
+REQUEST		Update User	1689966195677	1689966195809	KO	status.find.is(200), but actually found 404
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966195978
+USER	Create (POST) Api Request Demo	START	1689966195978
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966196180
+USER	Create (POST) Api Request Demo	START	1689966196180
+USER	Update (PUT) Api Request Demo	START	1689966196180
+REQUEST		Update User	1689966196180	1689966196290	KO	status.find.is(200), but actually found 404
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966196379
+USER	Create (POST) Api Request Demo	START	1689966196379
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966196582
+USER	Create (POST) Api Request Demo	START	1689966196582
+USER	Update (PUT) Api Request Demo	START	1689966196675
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966196784
+USER	Create (POST) Api Request Demo	START	1689966196784
+REQUEST		Update User	1689966196676	1689966196790	KO	status.find.is(200), but actually found 404
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966196985
+USER	Create (POST) Api Request Demo	START	1689966196985
+USER	Update (PUT) Api Request Demo	START	1689966197171
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966197186
+USER	Create (POST) Api Request Demo	START	1689966197186
+REQUEST		Update User	1689966197171	1689966197278	KO	status.find.is(200), but actually found 404
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966197371
+USER	Create (POST) Api Request Demo	START	1689966197371
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966197577
+USER	Create (POST) Api Request Demo	START	1689966197577
+USER	Update (PUT) Api Request Demo	START	1689966197671
+REQUEST		Update User	1689966197671	1689966197772	KO	status.find.is(200), but actually found 404
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966197779
+USER	Create (POST) Api Request Demo	START	1689966197779
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /users 	1689966197981
+USER	Create (POST) Api Request Demo	START	1689966197981
+USER	Update (PUT) Api Request Demo	START	1689966198165
+REQUEST		Update User	1689966198166	1689966198277	KO	status.find.is(200), but actually found 404
+USER	Update (PUT) Api Request Demo	START	1689966198675
+REQUEST		Update User	1689966198676	1689966198781	KO	status.find.is(200), but actually found 404
+USER	Update (PUT) Api Request Demo	START	1689966199171
+REQUEST		Update User	1689966199171	1689966199276	KO	status.find.is(200), but actually found 404
+USER	Update (PUT) Api Request Demo	START	1689966199679
+REQUEST		Update User	1689966199679	1689966199779	KO	status.find.is(200), but actually found 404
+USER	Create (POST) Api Request Demo	END	1689966200203
+USER	Create (POST) Api Request Demo	END	1689966200385
+USER	Update (PUT) Api Request Demo	END	1689966200571
+USER	Create (POST) Api Request Demo	END	1689966200585
+USER	Create (POST) Api Request Demo	END	1689966200802
+USER	Update (PUT) Api Request Demo	END	1689966200817
+USER	Create (POST) Api Request Demo	END	1689966200988
+USER	Create (POST) Api Request Demo	END	1689966201189
+USER	Update (PUT) Api Request Demo	END	1689966201297
+USER	Create (POST) Api Request Demo	END	1689966201389
+USER	Create (POST) Api Request Demo	END	1689966201588
+USER	Create (POST) Api Request Demo	END	1689966201788
+USER	Update (PUT) Api Request Demo	END	1689966201803
+USER	Create (POST) Api Request Demo	END	1689966201992
+USER	Create (POST) Api Request Demo	END	1689966202191
+USER	Update (PUT) Api Request Demo	END	1689966202285
+USER	Create (POST) Api Request Demo	END	1689966202376
+USER	Create (POST) Api Request Demo	END	1689966202591
+USER	Update (PUT) Api Request Demo	END	1689966202776
+USER	Create (POST) Api Request Demo	END	1689966202790
+USER	Create (POST) Api Request Demo	END	1689966202992
+USER	Update (PUT) Api Request Demo	END	1689966203287
+USER	Update (PUT) Api Request Demo	END	1689966203794
+USER	Update (PUT) Api Request Demo	END	1689966204288
+USER	Update (PUT) Api Request Demo	END	1689966204783

@@ -1,0 +1,76 @@
+RUN	com.gatling.apitests.PostPutDeleteAPITest002	postputdeleteapitest002	1689964944871	Create and Update user test	3.6.1
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964946052
+USER	Create (GET) Api Request Demo	START	1689964946046
+USER	Update (PUT) Api Request Demo	START	1689964946047
+USER	Update (PUT) Api Request Demo	START	1689964946281
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964946377
+USER	Create (GET) Api Request Demo	START	1689964946377
+REQUEST		Update User	1689964946072	1689964946409	OK	 
+REQUEST		Update User	1689964946281	1689964946404	OK	 
+USER	Update (PUT) Api Request Demo	START	1689964946536
+REQUEST		Update User	1689964946536	1689964946670	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964946706
+USER	Create (GET) Api Request Demo	START	1689964946706
+USER	Update (PUT) Api Request Demo	START	1689964946784
+REQUEST		Update User	1689964946785	1689964946926	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964947033
+USER	Create (GET) Api Request Demo	START	1689964947033
+USER	Update (PUT) Api Request Demo	START	1689964947033
+REQUEST		Update User	1689964947034	1689964947160	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964947374
+USER	Create (GET) Api Request Demo	START	1689964947374
+USER	Update (PUT) Api Request Demo	START	1689964947374
+REQUEST		Update User	1689964947374	1689964947492	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964947702
+USER	Create (GET) Api Request Demo	START	1689964947701
+USER	Update (PUT) Api Request Demo	START	1689964947701
+REQUEST		Update User	1689964947702	1689964947806	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964948041
+USER	Create (GET) Api Request Demo	START	1689964948041
+USER	Update (PUT) Api Request Demo	START	1689964948041
+USER	Create (GET) Api Request Demo	END	1689964948059
+REQUEST		Update User	1689964948042	1689964948192	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964948368
+USER	Create (GET) Api Request Demo	START	1689964948368
+USER	Update (PUT) Api Request Demo	START	1689964948368
+USER	Create (GET) Api Request Demo	END	1689964948384
+REQUEST		Update User	1689964948368	1689964948469	OK	 
+USER	Update (PUT) Api Request Demo	END	1689964948477
+USER	Update (PUT) Api Request Demo	END	1689964948477
+USER	Update (PUT) Api Request Demo	END	1689964948682
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964948696
+USER	Create (GET) Api Request Demo	START	1689964948696
+USER	Update (PUT) Api Request Demo	START	1689964948696
+USER	Create (GET) Api Request Demo	END	1689964948713
+REQUEST		Update User	1689964948697	1689964948820	OK	 
+USER	Update (PUT) Api Request Demo	END	1689964948929
+USER	Create (GET) Api Request Demo	END	1689964949036
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964949037
+USER	Create (GET) Api Request Demo	START	1689964949036
+USER	Update (PUT) Api Request Demo	END	1689964949176
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964949361
+USER	Create (GET) Api Request Demo	START	1689964949361
+USER	Create (GET) Api Request Demo	END	1689964949377
+USER	Update (PUT) Api Request Demo	END	1689964949502
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964949704
+USER	Create (GET) Api Request Demo	START	1689964949704
+USER	Create (GET) Api Request Demo	END	1689964949705
+USER	Update (PUT) Api Request Demo	END	1689964949811
+USER	Create (GET) Api Request Demo	END	1689964950042
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964950045
+USER	Create (GET) Api Request Demo	START	1689964950045
+USER	Update (PUT) Api Request Demo	END	1689964950200
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964950368
+USER	Create (GET) Api Request Demo	START	1689964950368
+USER	Create (GET) Api Request Demo	END	1689964950383
+USER	Update (PUT) Api Request Demo	END	1689964950476
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689964950696
+USER	Create (GET) Api Request Demo	START	1689964950696
+USER	Create (GET) Api Request Demo	END	1689964950711
+USER	Update (PUT) Api Request Demo	END	1689964950833
+USER	Create (GET) Api Request Demo	END	1689964951050
+USER	Create (GET) Api Request Demo	END	1689964951377
+USER	Create (GET) Api Request Demo	END	1689964951718
+USER	Create (GET) Api Request Demo	END	1689964952057
+USER	Create (GET) Api Request Demo	END	1689964952385
+USER	Create (GET) Api Request Demo	END	1689964952708

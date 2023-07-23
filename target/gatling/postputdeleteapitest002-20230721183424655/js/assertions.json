@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.apitests.PostPutDeleteAPITest002",
+  "simulationId": "postputdeleteapitest002",
+  "start": 1689964464655,
+  "description": "Update test",
+  "scenarios": ["Create (GET) Api Request Demo", "Update (PUT) Api Request Demo"],
+  "assertions": [
+
+  ]
+}

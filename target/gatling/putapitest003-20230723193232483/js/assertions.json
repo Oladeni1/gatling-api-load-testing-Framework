@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.apitests.PutAPITest003",
+  "simulationId": "putapitest003",
+  "start": 1690140752483,
+  "description": "Put API",
+  "scenarios": ["Update (PUT) Api Request Demo"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,76 @@
+RUN	com.gatling.apitests.PostPutDeleteAPITest002	postputdeleteapitest002	1689966668365	enter	3.6.1
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966669499
+USER	Create (POST) Api Request Demo	START	1689966669491
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966669674
+USER	Create (POST) Api Request Demo	START	1689966669674
+USER	Update (PUT) Api Request Demo	START	1689966669494
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966669879
+USER	Create (POST) Api Request Demo	START	1689966669879
+REQUEST		Update User	1689966669521	1689966669830	OK	 
+USER	Update (PUT) Api Request Demo	START	1689966669973
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966670082
+USER	Create (POST) Api Request Demo	START	1689966670082
+REQUEST		Update User	1689966669974	1689966670104	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966670285
+USER	Create (POST) Api Request Demo	START	1689966670285
+USER	Update (PUT) Api Request Demo	START	1689966670472
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966670487
+USER	Create (POST) Api Request Demo	START	1689966670487
+REQUEST		Update User	1689966670473	1689966670584	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966670688
+USER	Create (POST) Api Request Demo	START	1689966670688
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966670891
+USER	Create (POST) Api Request Demo	START	1689966670891
+USER	Update (PUT) Api Request Demo	START	1689966670982
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966671092
+USER	Create (POST) Api Request Demo	START	1689966671092
+REQUEST		Update User	1689966670983	1689966671114	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966671278
+USER	Create (POST) Api Request Demo	START	1689966671278
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966671481
+USER	Create (POST) Api Request Demo	START	1689966671481
+USER	Update (PUT) Api Request Demo	START	1689966671481
+REQUEST		Update User	1689966671481	1689966671580	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966671667
+USER	Create (POST) Api Request Demo	START	1689966671666
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966671869
+USER	Create (POST) Api Request Demo	START	1689966671869
+USER	Update (PUT) Api Request Demo	START	1689966671976
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966672070
+USER	Create (POST) Api Request Demo	START	1689966672070
+REQUEST		Update User	1689966671977	1689966672086	OK	 
+ERROR	Create User: Failed to build request: No baseUrl defined but provided url is relative : /api/users 	1689966672271
+USER	Create (POST) Api Request Demo	START	1689966672270
+USER	Update (PUT) Api Request Demo	START	1689966672472
+REQUEST		Update User	1689966672472	1689966672586	OK	 
+USER	Update (PUT) Api Request Demo	START	1689966672966
+REQUEST		Update User	1689966672966	1689966673073	OK	 
+USER	Update (PUT) Api Request Demo	START	1689966673477
+REQUEST		Update User	1689966673478	1689966673580	OK	 
+USER	Update (PUT) Api Request Demo	START	1689966673972
+REQUEST		Update User	1689966673973	1689966674095	OK	 
+USER	Create (POST) Api Request Demo	END	1689966674521
+USER	Create (POST) Api Request Demo	END	1689966674688
+USER	Create (POST) Api Request Demo	END	1689966674890
+USER	Update (PUT) Api Request Demo	END	1689966674906
+USER	Create (POST) Api Request Demo	END	1689966675089
+USER	Update (PUT) Api Request Demo	END	1689966675120
+USER	Create (POST) Api Request Demo	END	1689966675290
+USER	Create (POST) Api Request Demo	END	1689966675489
+USER	Update (PUT) Api Request Demo	END	1689966675596
+USER	Create (POST) Api Request Demo	END	1689966675689
+USER	Create (POST) Api Request Demo	END	1689966675906
+USER	Create (POST) Api Request Demo	END	1689966676107
+USER	Update (PUT) Api Request Demo	END	1689966676122
+USER	Create (POST) Api Request Demo	END	1689966676292
+USER	Create (POST) Api Request Demo	END	1689966676493
+USER	Update (PUT) Api Request Demo	END	1689966676587
+USER	Create (POST) Api Request Demo	END	1689966676680
+USER	Create (POST) Api Request Demo	END	1689966676881
+USER	Create (POST) Api Request Demo	END	1689966677081
+USER	Update (PUT) Api Request Demo	END	1689966677098
+USER	Create (POST) Api Request Demo	END	1689966677284
+USER	Update (PUT) Api Request Demo	END	1689966677594
+USER	Update (PUT) Api Request Demo	END	1689966678086
+USER	Update (PUT) Api Request Demo	END	1689966678596
+USER	Update (PUT) Api Request Demo	END	1689966679107
