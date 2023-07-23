@@ -3,9 +3,12 @@ API and Load testing using Gatling.
 
 ## Prerequisites:
 > Install gatling
-> In Java 8 and above and add to environment variable path
-> In Java maven and add to environment variable path
-> In Java scala and add to environment variable path
+
+> Install Java 8 and above and add to environment variable path
+
+> Install Java maven and add to environment variable path
+
+> Install Java scala and add to environment variable path
 
 ## Part 1: Standalone gatling (GUI)
 > Download gatling and extract to your choice of location
