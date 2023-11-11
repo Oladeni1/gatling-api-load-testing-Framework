@@ -1,3 +1,7 @@
+## Contact Persons:
+
+Olatunde Oladeni
+
 ## gatling-api-load-testing-Framework
 
 API and Load testing using Gatling.

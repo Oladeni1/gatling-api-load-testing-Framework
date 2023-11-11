@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.perftests.RecordedSimulationComputerDB",
+  "simulationId": "recordedsimulationcomputerdb",
+  "start": 1699725472021,
+  "description": "",
+  "scenarios": ["Users", "Admins"],
+  "assertions": [
+
+  ]
+}
