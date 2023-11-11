@@ -4,47 +4,47 @@ API and Load testing using Gatling.
 
 ## Prerequisites:
 
-> Install gatling
+> Install Gatling
 
-> Install Java 8 and above and add to environment variable path
+> Install Java 8 and above and add to the environment variable path
 
 > Install Java maven and add to environment variable path
 
 > Install Java scala and add to environment variable path
 
-## Part 1: Standalone gatling (GUI):
+## Part 1: Standalone Gatling (GUI):
 
-> Download gatling and extract to your choice of location
+> Download Gatling and extract to your choice of location
 
-> To open gatling recorder:
+> To open the Gatling recorder:
 
-> Nav to gatling bin folder > run recorder.bat
+> Nav to Gatling bin folder > run recorder.bat
  
-> record your test from a Chrome browser > goto devTool Network> check preserve log, refresh page, record your scenario
+> Record your test from a Chrome browser > Go to devTool Network> Check preserve log, refresh the page, record your scenario
 
-> Stop recording and download recorded script as .HAR with content file
+> Stop recording and download the recorded script.HAR with content file
 
-> Select HAR Converter form upper right corner
+> Select HAR Converter from the upper right corner
 
-> upload the .Har file into gatling recorder 
+> Upload the Har file into the Gatling recorder 
 
 > Set all blacklist filter params to (No static resources)
 
-> click Start/ OK button to save the script into:- user-files/simulations folder
+> Click the Start/ OK button to save the script into:- user-files/simulations folder
 
-> To open gatling:
+> To open Gatling:
 
-> Nav to gatling bin folder> run gatling.bat
+> Nav to Gatling bin folder> run gatling.bat
 
-> Enter 1 > run simulation locally, enter botton
+> Enter 1 > Run simulation locally, enter button
 
-> Enter 0 > Your recorder simulation (e.g: OrangeHmrLogintest), enter btn
+> Enter 0 > Your recorder simulation (e.g: OrangeHmrLogintest), enter the button
 
 > Press enter button 2ce
 
-> The simulation will start running, wait for completion of the execution
+> The simulation will start running, wait for the completion of the execution
 
-> The .html report of the test will be stored in the results folder of your gatling path.
+> The .html report of the test will be stored in the results folder of your Gatling path.
 
 > Open the .html to see your report.
 
@@ -52,7 +52,7 @@ API and Load testing using Gatling.
 
 Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), IDE.
 
-> Open Intellij IDE and add scala plugin via File/settings/plugin, restart Intellij
+> Open IntelliJ IDE and add the scala plugin via File/settings/plugin, restart Intellij
 
 > Add JDK
 
@@ -62,35 +62,35 @@ Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), I
 
 > Follow the on-screen instructions on till you see > Green BUILD SUCCESS (Maven project created)
 
-> Open the created folder with intellij ,after opening the project 
+> Open the created folder with IntelliJ, after opening the project 
 
-> Open the Engine class > (If you see - No Scala SDK in module) then setup Scala SDK to the project by browsing/adding the downloded scala.
+> Open the Engine class > (If you see - No Scala SDK in the module) then set up Scala SDK to the project by browsing/adding the downloaded Scala.
 
-> On the project, RtClick on scala folder and select Mark Directory as - Test Sources Root (The folder type)
+> On the project, RtClick on the scala folder and select Mark Directory as - Test Sources Root (The folder type)
 
 > Check that When you RtClick again  on scala folder > new > Scala Class/File is present
 
-> On the project, RtClick on src folder and select Mark Directory as - Sources Root (The folder type)
+> On the project, RtClick on the src folder and select Mark Directory as - Sources Root (The folder type)
 
 > Run the Engine class to see if all is Good! ( Console Output - There is no simulation script. Please check that your scripts are in user-files/simulations)
 
 > To record your test script:
 
-> record your test from a chrome browser > goto devTool Network> check preserve log, refresh page, record your scenario 
+> Record your test from a Chrome browser > Go to devTool Network> Check preserve log, refresh the page, record your scenario 
 
-> Stop recording and download recorded script as .HAR with content file to a location
+> Stop recording and download the recorded script as HAR with content file to a location
 
-> Open gatling recorder from the project folder:
+> Open the Gatling recorder from the project folder:
 
 > RtClick on recorder class > Run recorder class (Gatling recorder opens)
 
-> Select HAR Converter form upper right coner
+> Select HAR Converter from the upper right corner
 
-> upload the .Har file into gatling recorder 
+> Upload the Har file into the Gatling recorder 
 
 > Set all blacklist filter params to (No static resources)
 
-> click Start/ OK buttons to save the script into:- ./src>test>scala (REFRESH PROJECT IF NOT SEEN)
+> Click the Start/ OK buttons to save the script into:- ./src>test>scala (REFRESH PROJECT IF NOT SEEN)
 
 > (Optional)Open the recorded script and remove all the val headers and their corresponding e.g - .headers(headers_4.header
 
@@ -98,19 +98,19 @@ Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), I
 
 > RtClick on Engine Class > Click Run Engine
 
-> Your test script will show on the console output as simulation
+> Your test script will show on the console output as a simulation
 
 > Select run description (Optional) > Press enter button
 
-> Write a test description eg: Run Perf Test  (Enter btn)
+> Write a test description eg: Run Perf Test  (Enter button)
 
-> Test will complete & report.htlm will be generated on target folder. BINGO!!!
+> Test will complete & report.htlm will be generated on the target folder. BINGO!!!
 
 ## Part 3: Gatling recorder in proxy mode:
 
 > Open your recorder GUI (command > recorder.bat)
 
-> Set http proxy from dropdown
+> Set HTTP proxy from dropdown
 
 > Set port no & generate & select certificate
 
@@ -120,27 +120,27 @@ Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), I
 
 > Start your recorder
 
-> Run your site/scenario on the browser (There will be forwarding connection btw your recorder and browser
+> Run your site/scenario on the browser (There will be a forwarding connection btw your recorder and browser
 
-> Click Stop/Save button
+> Click the Stop/Save button
 
-> Import & Run the script with your gatling.bat
+> Import and run the script with your gatling.bat
 
 ## Part 4: Simulation Script:
 
-> Components of simulation script are scenarios, http config and userload, ThinkTime component.
+> Components of the simulation script are scenarios, HTTP config and userload, and ThinkTime component.
 
 ## Part 5: Scenario, Isolation, VUs and ramp up time:
 
-> Record a test script via devTol and save it as .HAR file
+> Record a test script via devTol and save it as a HAR file
 
-> Open gatling recorder from your gatling project framework
+> Open the Gatling recorder from your Gatling project framework
 
-> Upload the the test script into the recorder
+> Upload the test script into the recorder
 
 > Edit the requests to a proper name e.g: homePage, searchPage, editPage etc
 
-> Group the requests into isolated modules: e.g - vals: browse, search, select and edit
+> Group the requests into isolated modules: e.g - vals: browse, search, select, and edit
 
 > Call the vals (re-usability function):  .exec(browse, search, select, edit) in the val scenario block. (save changes)
 
@@ -154,13 +154,13 @@ Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), I
 
 > Issue a run name: e.g perfTest5
 
-> View report on target folder for your simulation. BINGO!!!
+> View the report on the target folder for your simulation. BINGO!!!
 
-> Note: the resolve any indentation errors on intellij > go to code > click aut-indent lines
+> Note: Resolve any indentation errors on intellij > go to code > click aut-indent lines
 
 ## Part 6: API Testing with Gatling (GET, POST, PUT, DELETE):
 
-> Add new directory and class in the .com of the project
+> Add a new directory and class in the .com of the project
 
 > extends simulation class (extends Simulation)
 
@@ -179,7 +179,7 @@ Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), I
 
 > Issue a run name: e.g apiTest
 
-> View report on target folder for your simulation. BINGO!!!
+> View the report on the target folder for your simulation. BINGO!!!
 
 ## Part 7: API Testing with Gatling (POST, PUT, DELETE):
 
@@ -202,5 +202,5 @@ Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), I
 
 > Issue a run name: e.g apiTest
 
-> View report on target folder for your simulation. BINGO!!!
+> View the report on the target folder for your simulation. BINGO!!!
 
