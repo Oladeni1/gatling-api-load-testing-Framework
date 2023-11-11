@@ -18,7 +18,7 @@ API and Load testing using Gatling.
 
 > To open the Gatling recorder:
 
-> Nav to Gatling bin folder > run recorder.bat
+> Nav to the Gatling bin folder and run > recorder.bat
  
 > Record your test from a Chrome browser > Go to devTool Network> Check preserve log, refresh the page, record your scenario
 
@@ -34,7 +34,7 @@ API and Load testing using Gatling.
 
 > To open Gatling:
 
-> Nav to Gatling bin folder> run gatling.bat
+> Nav to Gatling bin folder and run > gatling.bat
 
 > Enter 1 > Run simulation locally, enter button
 
@@ -183,7 +183,7 @@ Prerequisites: JDK, Scala, Maven ( download and add all to env variable path), I
 
 ## Part 7: API Testing with Gatling (POST, PUT, DELETE):
 
-> Add new directory and class in the .com of the project
+> Add a new directory and class in the .com of the project
 
 > extends simulation class (extends Simulation)
 
