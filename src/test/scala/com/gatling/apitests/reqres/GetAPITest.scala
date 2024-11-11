@@ -11,7 +11,7 @@ class GetAPITest extends Simulation{
 		.baseUrl("https://reqres.in")
 
 	//scenario:
-	val scn = scenario("Get Api Request Demo")
+	val getUser = scenario("Get Api Request Demo")
 		.exec(
 			http("Get Single User")
 				.get("/api/users/2")
@@ -23,7 +23,7 @@ class GetAPITest extends Simulation{
 
 	//setup:
 	setUp(
-		scn.inject(rampUsers(10).during(5))
+		getUser.inject(rampUsers(1000).during(5))
 			.protocols(httpProtocol)
 	)
 }

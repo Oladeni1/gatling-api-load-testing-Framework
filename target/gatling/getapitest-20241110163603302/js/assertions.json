@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.apitests.reqres.GetAPITest",
+  "simulationId": "getapitest",
+  "start": 1731256563302,
+  "description": "GetAPI1000UserTest101124",
+  "scenarios": ["Get Api Request Demo"],
+  "assertions": [
+
+  ]
+}

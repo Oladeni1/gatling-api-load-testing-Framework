@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.perftests.ProjectedOrangeHRM",
+  "simulationId": "projectedorangehrm",
+  "start": 1731260218206,
+  "description": "ProjectedTest10_11_24",
+  "scenarios": ["ProjectedOrangeHRM"],
+  "assertions": [
+
+  ]
+}

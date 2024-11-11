@@ -167,5 +167,10 @@ class ProjectedOrangeHRM extends Simulation {
 			.get("/web/index.php/buzz/photo/11")
 			.headers(headers_9)))
 
-	setUp(scn.inject(atOnceUsers(1))).protocols(httpProtocol)
+	//setup:
+	/*setUp(scn.inject(atOnceUsers(1))).protocols(httpProtocol)*/
+
+	setUp(scn.inject(rampUsers(2500).during(2100)).protocols(httpProtocol))
+
+
 }

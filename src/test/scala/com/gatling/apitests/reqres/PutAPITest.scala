@@ -4,6 +4,7 @@ import io.gatling.core.Predef.*
 import io.gatling.core.scenario.Simulation
 import io.gatling.http.Predef.*
 
+
 class PutAPITest extends Simulation {
 
 	//protocol
@@ -27,7 +28,6 @@ class PutAPITest extends Simulation {
 
 	//setup:
 	setUp(
-
 		updateUser.inject(rampUsers(10).during(5))
 			.protocols(httpProtocol)
 	)

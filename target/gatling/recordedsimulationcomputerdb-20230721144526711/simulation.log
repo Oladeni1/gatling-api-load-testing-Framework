@@ -1,8 +1,0 @@
-RUN	com.gatling.tests.RecordedSimulationComputerDB	recordedsimulationcomputerdb	1689950726711	Perf Test Computer DB	3.6.1
-USER	RecordedSimulationComputerDB	START	1689950728302
-REQUEST		homePage_Computer	1689950728334	1689950728985	OK	 
-REQUEST		search_Computer	1689950743088	1689950743330	OK	 
-REQUEST		select_Computer	1689950745346	1689950745593	OK	 
-REQUEST		edit_Computer	1689950760608	1689950760734	OK	 
-REQUEST		edit_Computer Redirect 1	1689950760744	1689950760980	OK	 
-USER	RecordedSimulationComputerDB	END	1689950762988
