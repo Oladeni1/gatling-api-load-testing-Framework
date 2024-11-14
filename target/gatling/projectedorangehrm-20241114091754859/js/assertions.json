@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.perftests.ProjectedOrangeHRM",
+  "simulationId": "projectedorangehrm",
+  "start": 1731575874859,
+  "description": "HRM Perf Test",
+  "scenarios": ["ProjectedOrangeHRM"],
+  "assertions": [
+
+  ]
+}

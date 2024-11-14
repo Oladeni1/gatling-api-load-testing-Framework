@@ -170,7 +170,9 @@ class ProjectedOrangeHRM extends Simulation {
 	//setup:
 	/*setUp(scn.inject(atOnceUsers(1))).protocols(httpProtocol)*/
 
-	setUp(scn.inject(rampUsers(2500).during(2100.milliseconds)).protocols(httpProtocol))
+	setUp(scn.inject(nothingFor(5.seconds), //do nothing for 5 seconds
+		atOnceUsers(100), //100 user at start
+	  rampUsers(2400).during(2100.seconds)).protocols(httpProtocol)) //ramp up user to 2400 for 35min = 2100sec
 
 
 }
