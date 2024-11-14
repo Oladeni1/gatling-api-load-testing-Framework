@@ -9,6 +9,7 @@ import io.gatling.jdbc.Predef._
 class ProjectedOrangeHRM extends Simulation {
 
 	val httpProtocol = http
+		.proxy(Proxy("localhost", 8866)) //Fiddler live traffic monitoring (Install Fiddler and map the port)
 		.baseUrl("https://opensource-demo.orangehrmlive.com")
 		.inferHtmlResources(BlackList(""".*\.js""", """.*\.css""", """.*\.gif""", """.*\.jpeg""", """.*\.jpg""", """.*\.ico""", """.*\.woff""", """.*\.woff2""", """.*\.(t|o)tf""", """.*\.png""", """.*detectportal\.firefox\.com.*"""), WhiteList())
 		.userAgentHeader("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36")
