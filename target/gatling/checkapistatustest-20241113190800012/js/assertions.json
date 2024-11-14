@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.apitests.reqres.CheckAPIStatusTest",
+  "simulationId": "checkapistatustest",
+  "start": 1731524880012,
+  "description": "Check API Statu Test",
+  "scenarios": ["Get Api Request Statuses Demo"],
+  "assertions": [
+
+  ]
+}

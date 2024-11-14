@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.apitests.reqres.DeleteAPITest",
+  "simulationId": "deleteapitest",
+  "start": 1731526428267,
+  "description": "Delete User API",
+  "scenarios": ["Delete User (Delete) Api Request Demo"],
+  "assertions": [
+
+  ]
+}

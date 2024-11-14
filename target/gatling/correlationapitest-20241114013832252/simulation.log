@@ -1,0 +1,5 @@
+RUN	simulations.apitests.reqres.CorrelationAPITest	correlationapitest	1731548312252	 	3.6.1
+USER	Check Correlation Demo	START	1731548313628
+REQUEST		Correlation- Get all users	1731548313654	1731548314693	KO	jsonPath($.[0].id).find.exists extraction crashed: string matching regex '[^\*\.\[\]\(\)=!<>\s]+' expected but '[' found
+ERROR	Correlation- Get specific user: Failed to build request: No attribute named 'UserId' is defined 	1731548314770
+USER	Check Correlation Demo	END	1731548314774

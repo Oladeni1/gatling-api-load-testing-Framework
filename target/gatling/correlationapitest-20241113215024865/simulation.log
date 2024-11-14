@@ -1,0 +1,5 @@
+RUN	simulations.apitests.reqres.CorrelationAPITest	correlationapitest	1731534624865	CorrelationTest	3.6.1
+USER	Check Correlation Demo	START	1731534626148
+REQUEST		Correlation- Get all users	1731534626173	1731534627225	KO	jsonPath($.id[0]).find.exists, found nothing
+ERROR	Correlation- Get specific user: Failed to build request: No attribute named 'userId' is defined 	1731534629321
+USER	Check Correlation Demo	END	1731534629324

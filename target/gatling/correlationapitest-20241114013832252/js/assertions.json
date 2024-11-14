@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.apitests.reqres.CorrelationAPITest",
+  "simulationId": "correlationapitest",
+  "start": 1731548312252,
+  "description": "",
+  "scenarios": ["Check Correlation Demo"],
+  "assertions": [
+
+  ]
+}
