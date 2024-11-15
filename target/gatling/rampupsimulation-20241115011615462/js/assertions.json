@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.perftests.RampUpSimulation",
+  "simulationId": "rampupsimulation",
+  "start": 1731633375462,
+  "description": "Ramp up Test - ComputerDB",
+  "scenarios": ["Users", "Admins"],
+  "assertions": [
+
+  ]
+}
