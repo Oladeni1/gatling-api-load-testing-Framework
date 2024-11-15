@@ -1,5 +1,0 @@
-RUN	simulations.apitests.reqres.CorrelationAPITest	correlationapitest	1731536495979	 	3.6.1
-USER	Check Correlation Demo	START	1731536497191
-REQUEST		Correlation- Get all users	1731536497223	1731536498269	KO	jsonPath($.[0].id).find.exists extraction crashed: string matching regex '[^\*\.\[\]\(\)=!<>\s]+' expected but '[' found
-REQUEST		Correlation- Get specific user	1731536500356	1731536500755	KO	status.find.is(200), but actually found 406
-USER	Check Correlation Demo	END	1731536500765

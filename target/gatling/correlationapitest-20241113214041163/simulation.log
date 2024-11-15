@@ -1,5 +1,0 @@
-RUN	simulations.apitests.reqres.CorrelationAPITest	correlationapitest	1731534041163	Correlation Test	3.6.1
-USER	Check Correlation Demo	START	1731534042699
-REQUEST		Correlation- Get all users	1731534042723	1731534044148	OK	 
-REQUEST		Correlation- Get specific user	1731534046238	1731534046570	KO	jsonPath($.data.id.name).find.is(Rohana Singh), but actually found nothing
-USER	Check Correlation Demo	END	1731534046588
