@@ -12,10 +12,17 @@
     <encoding>UTF-8</encoding>
 
     <gatling.version>3.6.1</gatling.version>
-    <gatling-maven-plugin.version>3.1.2</gatling-maven-plugin.version>
+     <gatling-maven-plugin.version>4.10.0</gatling-maven-plugin.version>
   </properties>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.gatling/gatling-maven-plugin -->
+    <dependency>
+      <groupId>io.gatling</groupId>
+      <artifactId>gatling-maven-plugin</artifactId>
+      <version>4.10.0</version>
+    </dependency>
+
     <dependency>
       <groupId>io.gatling.highcharts</groupId>
       <artifactId>gatling-charts-highcharts</artifactId>

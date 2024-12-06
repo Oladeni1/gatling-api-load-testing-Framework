@@ -3,5 +3,6 @@
   <component name="ScalaCompilerConfiguration">
     <option name="compileOrder" value="JavaThenScala" />
     <option name="incrementalityType" value="SBT" />
+    <profile name="Maven 1" modules="GatlingProject1,gatling-maven-plugin-demo-scala" />
   </component>
 </project>

@@ -1,0 +1,2 @@
+en=page_view&ep.content_type=product-pages&ep.content_group=manufacturingandproductionindustry
+en=scroll&ep.content_type=product-pages&ep.content_group=manufacturingandproductionindustry&epn.percent_scrolled=10&_et=190
